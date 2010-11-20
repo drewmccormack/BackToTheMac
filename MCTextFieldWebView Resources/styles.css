@@ -1,0 +1,43 @@
+
+body {
+	margin: 0;
+	padding: 0;
+    background: clear;
+}
+
+#parent {
+	-webkit-appearance:textfield;
+    background: white;
+	position: absolute;
+	bottom: 2px;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+}
+
+#textcontainer {
+	overflow-x:hidden;
+	overflow-y:auto;
+	font-family:Helvetica;
+	font-size:16px;
+	position: absolute;
+	bottom: 5px;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+}	
+
+:focus {
+    outline: none;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background-color:#eee;
+	-webkit-border-radius:5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#aaa;
+    -webkit-border-radius:5px;
+}
